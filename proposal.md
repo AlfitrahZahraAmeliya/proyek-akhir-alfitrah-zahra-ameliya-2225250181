@@ -210,7 +210,7 @@ proyek-akhir-alfitrah-zahra-ameliya-2225250181/
 |---|---|---|
 | Integer | Menyimpan koefisien, konstanta, jawaban, jumlah soal, dan jumlah jawaban benar. | Sesuai untuk operasi aritmetika dan perhitungan nilai. |
 | String | Menyimpan teks soal dan pesan kepada pengguna. | Memudahkan penampilan informasi melalui terminal. |
-| List | Dapat digunakan untuk menyimpan kumpulan soal atau hasil latihan. | Memudahkan pengolahan beberapa soal. |
+| List | Belum digunakan dalam implementasi awal. Dapat digunakan pada pengembangan selanjutnya untuk menyimpan kumpulan soal atau hasil latihan. | Dapat memudahkan pengolahan beberapa soal jika fitur tersebut dikembangkan. |
 | Dictionary | Menyimpan informasi soal, seperti teks soal dan jawaban benar. | Mengelompokkan beberapa atribut soal dalam satu struktur. |
 | Boolean | Menyatakan apakah jawaban pengguna benar atau salah. | Memudahkan pemeriksaan jawaban. |
 
