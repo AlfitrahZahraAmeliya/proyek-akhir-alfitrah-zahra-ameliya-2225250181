@@ -8,7 +8,7 @@
 
 ## Deskripsi Proyek
 
-Program Generator Soal Persamaan Linear Satu Variabel (PLSV) merupakan program berbasis Python yang dirancang untuk membantu siswa berlatih menyelesaikan soal persamaan linear satu variabel secara mandiri.
+Program Generator Soal Persamaan Linear Satu Variabel (PLSV) merupakan program berbasis Python yang dirancang untuk membantu siswa berlatih menyelesaikan soal persamaan linear satu variabel secara mandiri melalui terminal.
 
 ## Latar Belakang
 
@@ -20,23 +20,27 @@ Siswa membutuhkan latihan soal yang bervariasi untuk memahami materi PLSV. Progr
 
 **Tujuan:**
 - Membantu siswa berlatih mengerjakan soal PLSV.
+- Menghasilkan variasi soal secara otomatis.
 - Memeriksa jawaban secara otomatis.
-- Menghitung nilai akhir latihan.
+- Menghitung dan menampilkan nilai akhir latihan.
 
 ## Fitur Program
 
+### Fitur Wajib
 1. Menghasilkan soal PLSV secara otomatis.
 2. Menampilkan soal melalui terminal.
 3. Menerima dan memeriksa jawaban pengguna.
-4. Menghitung dan menampilkan nilai akhir.
-5. Menampilkan pembahasan soal sebagai fitur tambahan.
+4. Menghitung dan menampilkan nilai akhir latihan.
+
+### Fitur Tambahan
+1. Menampilkan pembahasan atau langkah penyelesaian soal apabila waktu pengembangan memungkinkan.
 
 ## Teknologi
 
-- Bahasa pemrograman: Python.
-- Editor kode: Visual Studio Code.
-- Pengelolaan repositori: Git dan GitHub.
-- Antarmuka: Terminal atau console.
+- **Bahasa pemrograman:** Python.
+- **Editor kode:** Visual Studio Code.
+- **Pengelolaan repositori:** Git dan GitHub.
+- **Antarmuka:** Terminal atau console.
 
 ## Struktur Folder
 
@@ -46,7 +50,7 @@ proyek-akhir-alfitrah-zahra-ameliya-2225250181/
 ├── proposal.md
 ├── .gitignore
 ├── data/
-│   └── contoh_soal.txt
+│   └── nilai_contoh.txt
 ├── src/
 │   ├── main.py
 │   ├── data_io.py
@@ -62,7 +66,7 @@ proyek-akhir-alfitrah-zahra-ameliya-2225250181/
 
 - `proposal.md`: Berisi rancangan dan perencanaan proyek.
 - `tests/test_case.md`: Berisi skenario pengujian program.
-- `data/contoh_soal.txt`: Menyimpan contoh soal PLSV.
+- `data/nilai_contoh.txt`: Menyimpan contoh soal PLSV.
 
 ## Test Case
 
@@ -74,9 +78,11 @@ Pengujian direncanakan meliputi:
 5. Pengguna memasukkan jawaban berupa teks.
 6. Program menghitung nilai ketika semua jawaban benar.
 
+Rincian input dan hasil yang diharapkan dicantumkan dalam `tests/test_case.md`.
+
 ## Repository GitHub
 
-https://github.com/AlfitrahZahraAmeliya/proyek-akhir-alfitrah-zahra-ameliya-2225250181
+[Proyek di GitHub](https://github.com/AlfitrahZahraAmeliya/proyek-akhir-alfitrah-zahra-ameliya-2225250181)
 
 ## Status Proyek
 
